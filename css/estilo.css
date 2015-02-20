@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+a {
+    text-decoration: none;
+}
+
+#menu a {
+    margin-left: 10px;
+    border: solid 1px #999;
+    background: #DDD;
+    color: #555;
+    padding: 3px 10px;
+}
+
+#menu a:hover, #menu a:focus {
+    background: #BBB;
+}
+
+form {
+    border: solid 1px #CCC;
+    padding: 9px 5px;
+    width: 725px;
+}
+
+/* Mensagem do formulario */
+legend {
+    color: #333;
+    font-weight: bold;
+    display: block;
+    width: 700px;
+    text-align: center;
+}
+
+legend b {
+    display: block;
+    width: 100%;
+    color: #900;
+    border: solid 1px #900;
+    padding: 3px 10px;
+}
+
+span .ok {
+    color: #060;
+    border-color: #060;
+}
+
+#listar {
+    border: solid 1px #666;
+    background: #CCC;
+}
+
+#listar thead th {
+    background: #333;
+    color: #FFF;
+}
+
+#listar tbody td {
+    background: #EEE;
+}
+
+#listar a {
+    float: left;
+    border: solid 1px #999;
+    background: #DDD;
+    color: #555;
+    padding: 2px 5px;
+    margin: 2px 1px;
+}
+
+#listar a:hover {
+    background: #BBB;
+}
+
+form p {
+    text-align: center;
+	border: 1px solid black;
+}
